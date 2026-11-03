@@ -28,8 +28,8 @@ class BankDatabaseTest {
     @Test
     void authenticatesExistingCustomerPins() {
         assertTrue(database.authenticateUser(11111));
-        assertTrue(database.authenticateUser(2222299));
-        assertTrue(database.authenticateUser(3333399));
+        assertTrue(database.authenticateUser(22222));
+        assertTrue(database.authenticateUser(33333));
     }
 
     @Test
