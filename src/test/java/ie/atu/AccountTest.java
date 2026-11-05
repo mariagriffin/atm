@@ -15,12 +15,12 @@ class AccountTest {
 
     @Test
     void acceptsMatchingPin() {
-        assertTrue(account.validatePIN(1111199));
+        assertTrue(account.validatePIN(11111));
     }
 
     @Test
     void rejectsIncorrectPin() {
-        assertFalse(account.validatePIN(2222299));
+        assertFalse(account.validatePIN(22222));
     }
 
     @Test
